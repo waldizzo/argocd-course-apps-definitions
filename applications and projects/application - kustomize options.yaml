@@ -13,9 +13,9 @@ spec:
     repoURL: "https://github.com/waldizzo/argocd-example-apps.git"
     targetRevision: master
     kustomize:
-      namePrefix: staging-
+      namePrefix: ben-
       commonLabels:
-        app: demo
+        app: demoz
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
